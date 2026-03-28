@@ -41,16 +41,14 @@ Logistic Regression is natively designed for binary classification. It outputs a
 
 ---
 
-##  Future Integrations (Roadmap)
-
 ### Phase 2 — Live Cloud API Integration
-- Connect to real AWS CloudWatch / GCP Cloud Monitoring APIs
+- Connect to real AWS CloudWatch and apply the final Logistic Regression model
 - Replace simulated data with live telemetry streams
-- Retrain the model on real billing and usage patterns
+- Retrain the model on real usage patterns
 
 ### Phase 3 — Autonomous Remediation
 - When an anomaly is confirmed, automatically trigger corrective backend actions via cloud APIs:
-  - Stop idle EC2/GCP instances
+  - Stop idle EC2 instances
   - Limit Lambda/Cloud Function concurrency
   - Clean unused S3/GCS storage volumes
   - Tag unreviewed assets for audit
@@ -63,7 +61,7 @@ Logistic Regression is natively designed for binary classification. It outputs a
 | Member | Role |
 |---|---|
 | Suryaansh and Rayaan| ML Engineering — model training, Z-score labelling, Logistic Regression |
-
+|---|---|
 | Shanmukesh | Cloud Integration — AWS/GCP API research, SDK setup, live data pipeline |
 | Rohan | Cloud Integration — remediation engine design, backend action automation |
 
