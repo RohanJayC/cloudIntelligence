@@ -61,7 +61,6 @@ Logistic Regression is natively designed for binary classification. It outputs a
 | Member | Role |
 |---|---|
 | Suryaansh and Rayaan| ML Engineering — model training, Z-score labelling, Logistic Regression |
-|---|---|
 | Shanmukesh | Cloud Integration — AWS/GCP API research, SDK setup, live data pipeline |
 | Rohan | Cloud Integration — remediation engine design, backend action automation |
 
